@@ -135,3 +135,25 @@ button {
     width: 100%;
     height: auto;
 }
+
+/* QUOTE SECTION */
+
+.section-quote {
+    padding: 150px 350pxgit ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-right: 30px;
+}
