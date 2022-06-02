@@ -95,10 +95,10 @@ nav {
 button {
     background-color: #3382f6;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: 0;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 
@@ -139,7 +139,7 @@ button {
 /* QUOTE SECTION */
 
 .section-quote {
-    padding: 150px 350pxgit ;
+    padding: 150px 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,4 +156,37 @@ button {
 .quote-author {
     align-self: flex-end;
     margin-right: 30px;
+}
+
+/* CALL TO ACTION SECTION */
+
+.section-calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 350px;
+}
+
+.box {
+    padding: 50px 150px;
+    background-color: #3882f6;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.box button {
+    border: 1px solid white;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
 }
