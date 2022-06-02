@@ -102,3 +102,36 @@ button {
 }
 
 
+/* SECTION INFORMATION */
+
+.section-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+/* information items */
+ 
+.information-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+.item-infor {
+    width: 200px;
+    height: auto;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+}
